@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="POST" action="/add_student">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="gpa">GPA:</label><br>
+        <input type="text" id="gpa" name="gpa" required><br><br>
+
+        <label for="stage">Stage:</label><br>
+        <input type="text" id="stage" name="stage"><br><br>
+
+        <label for="department">Department:</label><br>
+        <input type="text" id="department" name="department"><br><br>
+
+        <label for="weekly_schedule">Weekly Schedule (e.g., Monday: Math, Tuesday: Physics):</label><br>
+        <textarea id="weekly_schedule" name="weekly_schedule"></textarea><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+
+        <label for="mid_degree">Midterm Degree:</label><br>
+        <input type="text" id="mid_degree" name="mid_degree" required><br><br>
+
+        <label for="final_degree">Final Degree:</label><br>
+        <input type="text" id="final_degree" name="final_degree" required><br><br>
+
+        <button type="submit">Add Student</button>
+    </form>
+</body>
+</html>

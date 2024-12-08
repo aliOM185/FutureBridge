@@ -1,0 +1,13 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<h1>Calculate GPA</h1>
+<form method="POST">
+    Enter Grades (comma separated): <input type="text" name="grades" required>
+    <button type="submit">Calculate GPA</button>
+</form>
+
+{% if gpa is not none %}
+<p>Your GPA: {{ gpa }}</p>
+{% endif %}
+{% endblock %}
